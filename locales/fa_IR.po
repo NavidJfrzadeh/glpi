@@ -29,7 +29,7 @@ msgstr ""
 #: templates/install/step6.html.twig
 #: templates/pages/admin/inventory/agent.html.twig src/Agent.php:237
 msgid "Collect data"
-msgstr "Collect data"
+msgstr "گرفتن داده"
 
 #: templates/install/step6.html.twig templates/install/step3.html.twig
 #: templates/install/step1.html.twig templates/install/step7.html.twig
@@ -71,11 +71,11 @@ msgstr "اتصال پایگاه داده موفقیت آمیز"
 
 #: templates/install/step3.html.twig
 msgid "Database engine is not supported."
-msgstr "Database engine is not supported."
+msgstr "نسخه دیتابیس پشتیبانی نمی‌کند"
 
 #: templates/install/step3.html.twig
 msgid "Database configuration is not supported."
-msgstr "Database configuration is not supported."
+msgstr "تنظیمات دیتابیس پشتیبانی نمی‌کند"
 
 #: templates/install/step3.html.twig
 msgid "Please select a database:"
@@ -83,52 +83,52 @@ msgstr "پایگاه داده را انتخاب کنید:"
 
 #: templates/install/step3.html.twig
 msgid "Create a new database:"
-msgstr "Create a new database:"
+msgstr "ایجاد دیتابیس جدید:"
 
 #: templates/install/step3.html.twig
 msgid "Or use an existing one:"
-msgstr "Or use an existing one:"
+msgstr "یا استفاده از نمونه موجود:"
 
 #: templates/install/step3.html.twig
 msgid "Please select a database to update:"
-msgstr "Please select a database to update:"
+msgstr "نسخه دیتابیس را انتخاب کنید:"
 
 #: templates/install/install.install_required.html.twig install/update.php:99
 #: install/update.php:119 install/install.php:67 install/install.php:89
 msgid "GLPI setup"
-msgstr "GLPI setup"
+msgstr "تنظیمات GLPI"
 
 #: templates/install/install.install_required.html.twig
 msgid "The GLPI database must be configured and installed."
-msgstr "The GLPI database must be configured and installed."
+msgstr "دیتابیس GLPI باید تنظیم شود"
 
 #: templates/install/install.install_required.html.twig
 msgid "Go to install page"
-msgstr "Go to install page"
+msgstr "برو به صفحه نصب"
 
 #: templates/install/install.install_required.html.twig
 msgid ""
 "If you see this page when the installation has already been done, it means "
 "that the GLPI database configuration file has been removed or corrupted."
-msgstr ""
+msgstr "اگر این پیام رو می‌بینید به این معنی است که تنظیمات دیتابیس خراب یا پاک شده است."
 "If you see this page when the installation has already been done, it means "
 "that the GLPI database configuration file has been removed or corrupted."
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:286
 msgid "The database schema is not consistent with the current GLPI version."
-msgstr "The database schema is not consistent with the current GLPI version."
+msgstr "اسکیما دیتابیس با نسخه فعلی GLPI سازگار نیست."
 
 #: templates/install/post_update_step.html.twig
 #: src/Glpi/Console/Database/UpdateCommand.php:288
 #, php-format
 msgid "It is recommended to run the \"%s\" command to see the differences."
-msgstr "It is recommended to run the \"%s\" command to see the differences."
+msgstr "پیشنهاد می‌شود که دستور \"%s\" برای مقایسه استفاده کنید."
 
 #: templates/install/post_update_step.html.twig
 #: templates/install/step7.html.twig
 msgid "One last thing before starting"
-msgstr "One last thing before starting"
+msgstr "مورد نهایی قبل از شروع"
 
 #: templates/install/post_update_step.html.twig
 #: templates/install/step8.html.twig
@@ -137,11 +137,11 @@ msgstr "استفاده از GLPI"
 
 #: templates/install/step1.html.twig
 msgid "Checking write access to configuration files"
-msgstr "Checking write access to configuration files"
+msgstr "بررسی دسترسی نوشتن برای فایل های تنظیمات"
 
 #: templates/install/step1.html.twig
 msgid "Write access denied for configuration files"
-msgstr "Write access denied for configuration files"
+msgstr "مجاز به نوشتن در فایل تنظیمات نیستید."
 
 #: templates/install/step1.html.twig src/Glpi/Console/Application.php:477
 #, php-format
@@ -168,7 +168,7 @@ msgstr "دوباره سعی کنید"
 
 #: templates/install/step1.html.twig src/Glpi/Console/AbstractCommand.php:264
 msgid "Do you want to continue?"
-msgstr "Do you want to continue?"
+msgstr "می‌خوای ادامه بدی؟"
 
 #: templates/install/accept_license.html.twig
 msgid "Unofficial translations are also available"
@@ -200,7 +200,7 @@ msgstr "کلمه عبور / رمز پیش فرض:"
 
 #: templates/install/step8.html.twig
 msgid "glpi/glpi for the administrator account"
-msgstr "glpi/glpi for the administrator account"
+msgstr "glpi/glpi برای ورود به ادمین"
 
 #: templates/install/step8.html.twig
 msgid "tech/tech for the technician account"
@@ -245,11 +245,11 @@ msgstr "SQL password"
 #: src/Printer_CartridgeInfo.php:104 js/glpi_dialog.js:81
 #: js/glpi_dialog.js:266
 msgid "OK"
-msgstr "OK"
+msgstr "باشه"
 
 #: templates/install/update.need_update.html.twig
 msgid "Update needed"
-msgstr "Update needed"
+msgstr "نیازمند بروز رسانی"
 
 #: templates/install/update.need_update.html.twig
 #: src/Glpi/Console/Application.php:305
@@ -287,7 +287,7 @@ msgstr "نتایج"
 #: templates/install/blocks/requirements_table.html.twig
 #: src/Glpi/Console/System/CheckRequirementsCommand.php:94
 msgid "Required"
-msgstr "Required"
+msgstr "اجباری"
 
 #: templates/install/blocks/requirements_table.html.twig src/Entity.php:694
 #: src/Webhook.php:812 src/Glpi/Event.php:215
@@ -300,7 +300,7 @@ msgstr "امنیت"
 #: templates/install/blocks/requirements_table.html.twig
 #: src/Glpi/Console/System/CheckRequirementsCommand.php:98
 msgid "Suggested"
-msgstr "Suggested"
+msgstr "پیشنهاد شده"
 
 #: templates/install/step0.html.twig
 msgid "Choose 'Install' for a completely new installation of GLPI."
@@ -325,7 +325,7 @@ msgstr "نصب"
 
 #: templates/updatepassword.html.twig front/updatepassword.php:94
 msgid "Password update"
-msgstr "Password update"
+msgstr "بروز رسانی رمز"
 
 #: templates/central/lists/table.html.twig
 #: templates/layout/parts/context_links.html.twig
@@ -547,8 +547,8 @@ msgstr "نام"
 #: src/RuleImportAsset.php:172 src/Domain.php:170 src/ConsumableItem.php:303
 msgid "Comment"
 msgid_plural "Comments"
-msgstr[0] "Comment"
-msgstr[1] "Comments"
+msgstr[0] "نظر"
+msgstr[1] "نظرات"
 
 #: templates/dropdown_form.html.twig
 #: templates/components/form/pictures.html.twig
@@ -560,8 +560,8 @@ msgstr[1] "Comments"
 #: src/CommonDropdown.php:202 src/User.php:3847 src/User.php:6671
 msgid "Picture"
 msgid_plural "Pictures"
-msgstr[0] "Picture"
-msgstr[1] "Pictures"
+msgstr[0] "تصویر"
+msgstr[1] "تصاویر"
 
 #: templates/dropdown_form.html.twig
 msgid "Rack pictures"
@@ -573,19 +573,19 @@ msgstr "تصاویر دیگر"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "User menu"
-msgstr "User menu"
+msgstr "منو کاربر"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Change mode"
-msgstr "Change mode"
+msgstr "حالت تغییر"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Debug mode enabled"
-msgstr "Debug mode enabled"
+msgstr "حالت عیب یابی فعال است"
 
 #: templates/layout/parts/user_header.html.twig
 msgid "Debug mode disabled"
-msgstr "Debug mode disabled"
+msgstr "حالت عیب یابی غیرفعال است"
 
 #: templates/layout/parts/user_header.html.twig src/DocumentType.php:181
 #: src/DocumentType.php:182
@@ -639,13 +639,13 @@ msgstr "شما آن را در سایت GLPI-PROJECT.org می یابید."
 #: templates/layout/parts/user_header.html.twig src/Toolbox.php:1095
 #, php-format
 msgid "A new version is available: %s."
-msgstr "A new version is available: %s."
+msgstr "نسخه جدید آماده است."
 
 #: templates/layout/parts/page_header_empty.html.twig
 #: templates/layout/parts/page_header.html.twig
 #: templates/layout/page_card_notlogged.html.twig
 msgid "Go to main content"
-msgstr ""
+msgstr "رفتن به محتوای اصلی"
 
 #: templates/layout/parts/page_header_empty.html.twig
 #: templates/layout/parts/page_header.html.twig
@@ -662,23 +662,23 @@ msgstr "خانه"
 
 #: templates/layout/parts/breadcrumbs.html.twig
 msgid "Breadcrumbs"
-msgstr ""
+msgstr "مسیر راهنما"
 
 #: templates/layout/parts/dcbreadcrumbs.html.twig src/PDU_Rack.php:432
 msgid "On left"
-msgstr "On left"
+msgstr "از چپ"
 
 #: templates/layout/parts/dcbreadcrumbs.html.twig src/PDU_Rack.php:436
 msgid "On right"
-msgstr "On right"
+msgstr "از راست"
 
 #: templates/layout/parts/dcbreadcrumbs.html.twig src/PDU_Rack.php:440
 msgid "On top"
-msgstr "On top"
+msgstr "از بالا"
 
 #: templates/layout/parts/dcbreadcrumbs.html.twig src/PDU_Rack.php:444
 msgid "On bottom"
-msgstr "On bottom"
+msgstr "از پایین"
 
 #: templates/layout/parts/dcbreadcrumbs.html.twig
 #, php-format
@@ -692,7 +692,7 @@ msgstr "You are impersonating %s."
 
 #: templates/layout/parts/impersonate_banner.html.twig
 msgid "Stop impersonating"
-msgstr "Stop impersonating"
+msgstr "از جعل هویت دست بردارید"
 
 #: templates/layout/parts/page_header.html.twig
 msgid "Sidebar"
@@ -713,12 +713,12 @@ msgstr "Collapse menu"
 #: templates/layout/parts/saved_searches.html.twig src/SavedSearch.php:74
 msgid "Saved search"
 msgid_plural "Saved searches"
-msgstr[0] "Saved search"
-msgstr[1] "Saved searches"
+msgstr[0] "جستجو ذخیره شده"
+msgstr[1] "جستجو های ذخیره شده"
 
 #: templates/layout/parts/saved_searches.html.twig
 msgid "Manage all saved searches"
-msgstr "Manage all saved searches"
+msgstr "مدیریت جستجو های ذخیره شده"
 
 #: templates/layout/parts/saved_searches.html.twig
 msgid "Pin this panel for the current page"
@@ -750,7 +750,7 @@ msgstr "Option+Command+G"
 
 #: templates/layout/parts/goto_button.html.twig
 msgid "Find menu"
-msgstr "Find menu"
+msgstr "جستجو در منو"
 
 #: templates/layout/parts/context_links.html.twig front/setup.templates.php:47
 msgid "Manage templates..."
@@ -878,8 +878,8 @@ msgid "Change profile"
 msgstr "Change profile"
 
 #: templates/layout/parts/profile_selector.html.twig
-msgid "Profiles"
-msgstr "Profiles"
+msgid "حساب ها"
+msgstr "حساب ها"
 
 #: templates/layout/parts/profile_selector.html.twig
 #: templates/pages/admin/rules/import_preview.html.twig
@@ -897,11 +897,11 @@ msgstr "⌥ (option) + ⌘ (command) + E"
 #: templates/layout/parts/profile_selector.html.twig
 #: js/src/vue/FuzzySearch/Modal.vue:9
 msgid "Tip: You can call this modal with %s keys combination"
-msgstr "Tip: You can call this modal with %s keys combination"
+msgstr "نکته: می‌توانید این صفحه را با کلید ترکیبی باز کنید %s"
 
 #: templates/layout/parts/profile_selector.html.twig
 msgid "Search entity"
-msgstr "Search entity"
+msgstr "جستجوی نهاد"
 
 #: templates/layout/parts/profile_selector.html.twig
 #: templates/components/search/controls.html.twig
@@ -1020,16 +1020,16 @@ msgstr "فرستادن"
 
 #: templates/components/pager.html.twig
 msgid "Rows per page"
-msgstr "Rows per page"
+msgstr "تعداد در صفحه"
 
 #: templates/components/pager.html.twig
 msgid "rows / page"
-msgstr "rows / page"
+msgstr "تعداد / صفحه"
 
 #: templates/components/pager.html.twig
 #, php-format
 msgid "Showing %s to %s of %s rows"
-msgstr "Showing %s to %s of %s rows"
+msgstr "نمایش %s از %s کل %s"
 
 #: templates/components/pager.html.twig
 #, php-format
@@ -1407,7 +1407,7 @@ msgstr "توضیح"
 #: src/Search.php:978 src/CartridgeItem_PrinterModel.php:194
 #: js/modules/Form/GeolocationField.js:87
 msgid "No results found"
-msgstr "No results found"
+msgstr "نتیجه‌ای یافت نشد"
 
 #: templates/components/form/item_disk.html.twig
 #: templates/pages/admin/inventory/agent.html.twig
@@ -2283,7 +2283,7 @@ msgstr "Keep the devices while deleting this item"
 #: src/MassiveAction.php:698 src/Profile.php:1010 src/CommonDBTM.php:5414
 msgctxt "button"
 msgid "Put in trashbin"
-msgstr "Put in trashbin"
+msgstr "حذف کردن"
 
 #: templates/components/form/reservation.html.twig
 #: templates/components/itilobject/fields_panel.html.twig
@@ -3726,7 +3726,7 @@ msgstr "وضعیت اعتبار سنجی سراسری"
 
 #: templates/components/itilobject/validation.html.twig
 msgid "Approvals"
-msgstr "Approvals"
+msgstr "تایید شده ها"
 
 #: templates/components/itilobject/validation.html.twig
 #: src/RuleCommonITILObject.php:987 src/RuleCommonITILObject.php:995
@@ -3911,7 +3911,7 @@ msgstr "Unlink"
 
 #: templates/components/search/query_builder/sort/main.html.twig
 msgid "Add another sort"
-msgstr "Add another sort"
+msgstr "مرتب سازی جدید"
 
 #: templates/components/search/query_builder/sort/main.html.twig
 #: templates/components/search/controls.html.twig
@@ -3920,11 +3920,11 @@ msgstr "Sort"
 
 #: templates/components/search/query_builder/sort/main.html.twig
 msgid "Reset sort"
-msgstr "Reset sort"
+msgstr "تنظیم مجدد"
 
 #: templates/components/search/query_builder/sort/criteria.html.twig
 msgid "Delete a sort"
-msgstr "Delete a sort"
+msgstr "حذف"
 
 #: templates/components/search/query_builder/sort/criteria.html.twig
 msgid "ASC"
@@ -3953,11 +3953,11 @@ msgstr "rule"
 
 #: templates/components/search/query_builder/main.html.twig
 msgid "global rule"
-msgstr "global rule"
+msgstr "قاعده کلی"
 
 #: templates/components/search/query_builder/main.html.twig
 msgid "group"
-msgstr "group"
+msgstr "گروه"
 
 #: templates/components/search/query_builder/main.html.twig
 #: templates/pages/setup/crontask/crontask.html.twig
@@ -4092,15 +4092,15 @@ msgstr "Delete personal view"
 
 #: templates/components/search/controls.html.twig
 msgid "Show saved searches"
-msgstr "Show saved searches"
+msgstr "نمایش جستجوی‌های ذخیره شده"
 
 #: templates/components/search/controls.html.twig
 msgid "Show as table"
-msgstr "Show as table"
+msgstr "نمایش برحسب جدول"
 
 #: templates/components/search/controls.html.twig
 msgid "Show as map"
-msgstr "Show as map"
+msgstr "نمایش برحسب نقشه"
 
 #: templates/components/search/controls.html.twig
 msgid "Toggle browse"
@@ -4108,7 +4108,7 @@ msgstr "Toggle browse"
 
 #: templates/components/search/controls.html.twig
 msgid "Show the trashbin"
-msgstr "Show the trashbin"
+msgstr "نمایش موارد حذف شده"
 
 #: templates/components/search/controls.html.twig
 msgid "Show unpublished"
@@ -4123,7 +4123,7 @@ msgstr "موارد پیش فرض را برای نمایش انتخاب کنید"
 #: templates/components/search/controls.html.twig
 #: src/Glpi/Dashboard/Widget.php:88 js/planning.js:405
 msgid "Refresh"
-msgstr ""
+msgstr "تازه سازی"
 
 #: templates/components/search/controls.html.twig
 #: templates/components/logs.html.twig
@@ -4754,7 +4754,7 @@ msgstr "Connected"
 #: templates/stencil/parts/port/status.html.twig
 #: src/NetworkPortConnectionLog.php:111 src/NetworkPort.php:1200
 msgid "Not connected"
-msgstr "Not connected"
+msgstr "متصل نیست"
 
 #: templates/stencil/parts/port/status.html.twig src/NetworkPort.php:1204
 msgid "Testing"
@@ -5232,7 +5232,7 @@ msgstr "Last boot date"
 
 #: templates/impact/edit_compound_modal.html.twig
 msgid "Edit group"
-msgstr "Edit group"
+msgstr "ویرایش گروه"
 
 #: templates/impact/edit_compound_modal.html.twig
 #: templates/pages/assets/cable.html.twig src/PlanningEventCategory.php:48
@@ -5247,7 +5247,7 @@ msgstr "Edit edge"
 #: templates/impact/ongoing_modal.html.twig
 #: src/Glpi/Helpdesk/HomePageTabs.php:77
 msgid "Ongoing tickets"
-msgstr "Ongoing tickets"
+msgstr "درخواست های باز"
 
 #: templates/pages/2fa/2fa_request.html.twig
 msgid "Please enter the code from your authenticator app"
@@ -5443,23 +5443,23 @@ msgstr[1] "Service catalog categories"
 #: src/Glpi/Helpdesk/Tile/GlpiPageTile.php:92
 #: js/modules/Forms/ServiceCatalogController.js:219
 msgid "Service catalog"
-msgstr "Service catalog"
+msgstr "فرم خدمات"
 
 #: templates/pages/self-service/service_catalog.html.twig
 msgid "Sort by: "
-msgstr "Sort by: "
+msgstr "مرتب سازی: "
 
 #: templates/pages/self-service/service_catalog.html.twig
 msgid "Sort by"
-msgstr "Sort by"
+msgstr "مرتب سازی"
 
 #: templates/pages/self-service/service_catalog.html.twig
 msgid "Search for forms..."
-msgstr "Search for forms..."
+msgstr "جستجوی فرم خدمت"
 
 #: templates/pages/self-service/service_catalog.html.twig
 msgid "Forms"
-msgstr "Forms"
+msgstr "فرم ها"
 
 #: templates/pages/tools/find_available_reservation.html.twig
 #: src/ReservationItem.php:422
@@ -5572,7 +5572,7 @@ msgstr "URL"
 
 #: templates/pages/tools/rss_form.html.twig src/RSSFeed.php:382
 msgid "Refresh rate"
-msgstr "Refresh rate"
+msgstr "نرخ تازه سازی"
 
 #: templates/pages/tools/rss_form.html.twig src/RSSFeed.php:361
 msgid "Number of items displayed"
@@ -9208,11 +9208,11 @@ msgstr "Deny"
 
 #: templates/pages/helpdesk/index.html.twig
 msgid "Search for knowledge base entries or forms"
-msgstr "Search for knowledge base entries or forms"
+msgstr "جستجوی فرم یا کلمات"
 
 #: templates/pages/helpdesk/index.html.twig
 msgid "Search results"
-msgstr "Search results"
+msgstr "نتایج"
 
 #: templates/pages/helpdesk/index.html.twig
 msgid "Quick Access"
@@ -9237,11 +9237,11 @@ msgstr "Toggle filters"
 #: templates/pages/assistance/planning/filters.html.twig
 #: src/Glpi/Dashboard/Grid.php:886
 msgid "Filters"
-msgstr "Filters"
+msgstr "فیلتر"
 
 #: templates/pages/assistance/planning/filters.html.twig
 msgid "Plannings"
-msgstr "Plannings"
+msgstr "برنامه ها"
 
 #: templates/pages/assistance/planning/filters.html.twig js/planning.js:740
 msgid "Add a calendar"
@@ -9348,11 +9348,11 @@ msgstr "Your form has been submitted successfully."
 
 #: templates/pages/form_renderer.html.twig
 msgid "Go back to service catalog"
-msgstr "Go back to service catalog"
+msgstr "برگشت به فرم خدمت"
 
 #: templates/pages/form_renderer.html.twig
 msgid "See my tickets"
-msgstr "See my tickets"
+msgstr "دیدن درخواست های من"
 
 #: templates/pages/management/certificate.html.twig src/Certificate.php:169
 msgid "Self-signed"
@@ -10075,7 +10075,7 @@ msgstr "Conditional validation"
 #: templates/pages/admin/form/service_catalog_tab.html.twig
 #: templates/pages/admin/helpdesk_home_config_edit_tile_form.html.twig
 msgid "Save changes"
-msgstr "Save changes"
+msgstr "ذحیره تغییرات"
 
 #: templates/pages/admin/form/form_translations.html.twig
 #: templates/pages/admin/form/form_translation.html.twig
@@ -10326,7 +10326,7 @@ msgstr "بازگرداندن"
 
 #: templates/pages/admin/form/form_editor.html.twig
 msgid "Put in trashbin"
-msgstr "Put in trashbin"
+msgstr "حذف کردن"
 
 #: templates/pages/admin/form/form_editor.html.twig
 msgid "Save and preview"
@@ -11670,20 +11670,20 @@ msgstr "Log files"
 
 #: templates/pages/admin/logs_list.html.twig
 msgid "Sort by file path"
-msgstr "Sort by file path"
+msgstr "مرتب براساس مسیر فایل"
 
 #: templates/pages/admin/logs_list.html.twig
 msgid "Sort by size"
-msgstr "Sort by size"
+msgstr "مرتب براساس حجم"
 
 #: templates/pages/admin/logs_list.html.twig
 msgid "Sort by date"
-msgstr "Sort by date"
+msgstr "مرتب براساس تاریخ"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
 msgid "file size"
-msgstr "file size"
+msgstr "حجم فایل"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
@@ -11692,17 +11692,17 @@ msgstr "date of last modification"
 
 #: templates/pages/admin/logs_list.html.twig
 msgid "File actions"
-msgstr "File actions"
+msgstr "عملیات فایل"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Download file"
-msgstr "Download file"
+msgstr "دانلود فایل"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Empty file"
-msgstr "Empty file"
+msgstr "فایل خالی"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
@@ -11712,7 +11712,7 @@ msgstr "Are you sure you want to clear this file?"
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Delete file"
-msgstr "Delete file"
+msgstr "حذف فایل"
 
 #: templates/pages/admin/logs_list.html.twig
 #: templates/pages/admin/log_viewer.html.twig
@@ -12155,15 +12155,15 @@ msgstr "Last entries to show:"
 
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Toggle auto refresh"
-msgstr "Toggle auto refresh"
+msgstr "تغییر وضعیت تازه سازی"
 
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Collapse"
-msgstr "Collapse"
+msgstr "جمع کردن"
 
 #: templates/pages/admin/log_viewer.html.twig
 msgid "Expand"
-msgstr "Expand"
+msgstr "باز کردن"
 
 #: templates/pages/admin/log_viewer.html.twig
 msgid "The log file is empty"
@@ -12179,11 +12179,11 @@ msgstr "Enable auto-refresh"
 
 #: templates/pages/admin/ldap.user_criteria.html.twig
 msgid "Expert mode"
-msgstr "Expert mode"
+msgstr "حالت پیشرفته"
 
 #: templates/pages/admin/ldap.user_criteria.html.twig
 msgid "Simple mode"
-msgstr "Simple mode"
+msgstr "حالت ساده"
 
 #: templates/pages/admin/ldap.user_criteria.html.twig
 msgid "Search criteria for users"
@@ -12198,7 +12198,7 @@ msgstr "صافی جستجو برای کاربران"
 #: src/AuthLDAP.php:956
 msgctxt "ldap"
 msgid "Phone"
-msgstr "Phone"
+msgstr "تلفن"
 
 #: templates/pages/admin/ldap.user_criteria.html.twig
 msgid "View updated users"
@@ -12227,11 +12227,11 @@ msgstr "Login source"
 
 #: templates/pages/login.html.twig
 msgid "Remember me"
-msgstr "Remember me"
+msgstr "به خاطر سپردن"
 
 #: templates/pages/login.html.twig
 msgid "Sign in"
-msgstr "Sign in"
+msgstr "وارد شدن"
 
 #: templates/pages/login.html.twig front/helpdesk.faq.php:46
 #: front/helpdesk.faq.php:50 front/helpdesk.faq.php:52
@@ -12324,8 +12324,8 @@ msgstr "Data migration - %s"
 #: src/CommonITILValidation.php:149
 msgid "Approval"
 msgid_plural "Approvals"
-msgstr[0] "Approval"
-msgstr[1] "Approvals"
+msgstr[0] "موافقت"
+msgstr[1] "موافقت ها"
 
 #: install/migrations/update_0.90.x_to_9.1.0.php:464
 msgid "date_mod and date_creation"
@@ -12558,11 +12558,11 @@ msgstr "%s updates an item"
 
 #: ajax/savedsearch.php:49
 msgid "Search has been saved"
-msgstr "Search has been saved"
+msgstr "جستجو ذخیره شد"
 
 #: ajax/savedsearch.php:56
 msgid "Search has not been saved"
-msgstr "Search has not been saved"
+msgstr "جستجو ذخیره نشد"
 
 #: ajax/viewsubitem.php:56 src/Glpi/Controller/ErrorController.php:72
 #: src/Glpi/Controller/IndexController.php:99
@@ -14552,7 +14552,7 @@ msgstr "world"
 #: resources/.illustrations_translations.php:399
 msgctxt "Icon"
 msgid "browser"
-msgstr "browser"
+msgstr "مرور"
 
 #: resources/.illustrations_translations.php:400
 msgctxt "Icon"
@@ -14859,8 +14859,8 @@ msgstr "Mandatory fields are not filled. Please correct: %s"
 #: src/CommonItilObject_Item.php:1527
 msgid "Associated element"
 msgid_plural "Associated elements"
-msgstr[0] "Associated element"
-msgstr[1] "Associated elements"
+msgstr[0] "فرم مربوطه"
+msgstr[1] "فرم های مربوطه"
 
 #: front/knowbaseitem_comment.form.php:44
 #: front/knowbaseitem_comment.form.php:55
@@ -16338,7 +16338,7 @@ msgstr "Value inherited from a parent entity"
 
 #: src/Entity.php:3482
 msgid "How can we help you?"
-msgstr "How can we help you?"
+msgstr "چطور می‌تونیم کمکت کنیم؟"
 
 #: src/Entity.php:3494
 msgid "Tiles may be overriden by profile."
@@ -16655,8 +16655,8 @@ msgstr "پویا"
 #: src/RuleRight.php:297
 msgid "Profile"
 msgid_plural "Profiles"
-msgstr[0] "Profile"
-msgstr[1] "Profiles"
+msgstr[0] "حساب"
+msgstr[1] "حساب ها"
 
 #: src/Profile_User.php:995 src/Profile_User.php:1003
 #: src/Profile_User.php:1008 src/Profile_User.php:1275
@@ -17647,7 +17647,7 @@ msgstr "Minimal required approval percent"
 #: src/Glpi/Form/Destination/CommonITILField/StatusField.php:76
 #: src/SavedSearch.php:357
 msgid "Default"
-msgstr "Default"
+msgstr "پیش فرض"
 
 #: src/AutoUpdateSystem.php:42
 msgid "Update Source"
@@ -18804,15 +18804,15 @@ msgstr "Number of opened tickets"
 
 #: src/Stat.php:535
 msgid "Number of solved tickets"
-msgstr "Number of solved tickets"
+msgstr "تعداد درخواست های حل شده"
 
 #: src/Stat.php:536
 msgid "Number of late tickets"
-msgstr "Number of late tickets"
+msgstr "تعداد درخواست های غقب افتاده"
 
 #: src/Stat.php:537
 msgid "Number of closed tickets"
-msgstr "Number of closed tickets"
+msgstr "تعداد درخواست های بسته شده"
 
 #: src/Stat.php:539 src/Glpi/Dashboard/Provider.php:1129
 #: src/Glpi/Dashboard/FakeProvider.php:388
@@ -18950,8 +18950,8 @@ msgstr "با مشکل"
 #: src/Stat.php:1751 src/Change.php:75
 msgid "Change"
 msgid_plural "Changes"
-msgstr[0] "Change"
-msgstr[1] "Changes"
+msgstr[0] "تغییر"
+msgstr[1] "تغییرات"
 
 #: src/Stat.php:1755
 msgid "By change"
@@ -18983,12 +18983,12 @@ msgstr "Technician in tasks"
 #: src/Glpi/Event.php:202 src/Profile.php:2030
 msgid "Dropdown"
 msgid_plural "Dropdowns"
-msgstr[0] "Dropdown"
-msgstr[1] "Dropdowns"
+msgstr[0] "منو کشویی"
+msgstr[1] "منو کشویی"
 
 #: src/Stat.php:2028 src/Stat.php:2159 src/Glpi/Dashboard/Widget.php:93
 msgid "Save as image"
-msgstr "Save as image"
+msgstr "ذخیره به عنوان عکس"
 
 #: src/DeviceMotherboardModel.php:44
 msgid "System board model"
@@ -19152,13 +19152,13 @@ msgstr[1] "PDU models"
 #: src/Project.php:85 src/ProjectTask.php:1754
 msgid "Project"
 msgid_plural "Projects"
-msgstr[0] "Project"
-msgstr[1] "Projects"
+msgstr[0] "پروژه"
+msgstr[1] "پروژه ها"
 
 #: src/Project.php:136 src/Problem.php:1452 src/Change.php:798
 #: src/Glpi/Dashboard/Widget.php:1918
 msgid "See all"
-msgstr "See all"
+msgstr "دیدن همه"
 
 #: src/Project.php:137 src/ProjectTask.php:208
 msgid "See (actor)"
@@ -19166,11 +19166,11 @@ msgstr "See (actor)"
 
 #: src/Project.php:159 src/Glpi/Features/Kanban.php:98
 msgid "Kanban"
-msgstr "Kanban"
+msgstr "کانبان"
 
 #: src/Project.php:224 src/Project.php:241 src/Project.php:243
 msgid "My tasks"
-msgstr "My tasks"
+msgstr "درخواست های من"
 
 #: src/Project.php:572 src/Project.php:2437
 #: src/NetworkPortConnectionLog.php:151 src/Item_Project.php:307
@@ -19178,12 +19178,12 @@ msgstr "My tasks"
 #: src/ItemVirtualMachine.php:328 src/ItemVirtualMachine.php:545
 msgid "State"
 msgid_plural "States"
-msgstr[0] "State"
-msgstr[1] "States"
+msgstr[0] "وضعیت"
+msgstr[1] "وضعیت ها"
 
 #: src/Project.php:1052
 msgid "Planned Duration"
-msgstr "Planned Duration"
+msgstr "مدت زمان برنامه ریزی شده"
 
 #: src/Project.php:1260 src/ProjectTask.php:519
 msgid "Circular relation found. Parent not updated."
@@ -19208,12 +19208,12 @@ msgstr "Add a team member"
 #: src/Project.php:1478 src/Project.php:2168 src/ProjectTask.php:1537
 msgid "Member"
 msgid_plural "Members"
-msgstr[0] "Member"
-msgstr[1] "Members"
+msgstr[0] "عضو"
+msgstr[1] "اعضا"
 
 #: src/Project.php:1819
 msgid "No status"
-msgstr "No status"
+msgstr "بدون وضعیت"
 
 #: src/Project.php:1861
 msgid "Subproject"
@@ -19285,7 +19285,7 @@ msgstr "A contact in the team of the item"
 
 #: src/Project.php:2427
 msgid "Ongoing projects"
-msgstr "Ongoing projects"
+msgstr "پروژه های باز"
 
 #: src/CommonDeviceModel.php:46
 msgid "Device model"
@@ -19794,7 +19794,7 @@ msgstr ""
 
 #: src/ProjectTask.php:1740
 msgid "Ongoing projects tasks"
-msgstr "Ongoing projects tasks"
+msgstr "تسک های باز پروژه"
 
 #: src/ProjectTask.php:2073
 #, php-format
@@ -19808,7 +19808,7 @@ msgstr "End at %s"
 
 #: src/RecurrentChange.php:45
 msgid "Recurrent changes"
-msgstr "Recurrent changes"
+msgstr "تغییرات مکرر"
 
 #: src/DevicePowerSupplyModel.php:44
 msgid "Device power supply model"
@@ -20646,7 +20646,7 @@ msgstr "Do nothing"
 
 #: src/AuthLDAP.php:3935
 msgid "Move to trashbin"
-msgstr "Move to trashbin"
+msgstr "حذف کردن"
 
 #: src/AuthLDAP.php:3948
 msgid "Delete dynamic groups"
@@ -21059,8 +21059,8 @@ msgstr[1] "Service packs"
 #: src/Report.php:60 src/Profile.php:1982
 msgid "Report"
 msgid_plural "Reports"
-msgstr[0] "Report"
-msgstr[1] "Reports"
+msgstr[0] "گزارش"
+msgstr[1] "گزارش ها"
 
 #: src/Report.php:77 src/Report.php:384
 msgid "Default report"
@@ -22242,7 +22242,7 @@ msgstr "بسته نشده"
 #: src/Problem.php:740 src/Change.php:743 src/Ticket.php:3400
 msgctxt "status"
 msgid "Solved + Closed"
-msgstr "Solved + Closed"
+msgstr "حل شده + بسته شده"
 
 #: src/Problem.php:930 src/Problem.php:976
 msgid "Problems on pending status"
@@ -23501,7 +23501,7 @@ msgstr[1] "درخواست ها"
 
 #: src/Ticket.php:146
 msgid "Create ticket"
-msgstr "Create ticket"
+msgstr "ایجاد درخواست"
 
 #: src/Ticket.php:761 src/Ticket.php:811
 msgid "Created tickets"
@@ -24547,12 +24547,12 @@ msgstr "Planned tickets"
 #: src/Glpi/Dashboard/FakeProvider.php:218
 #: src/Glpi/Helpdesk/HomePageTabs.php:81
 msgid "Solved tickets"
-msgstr "Solved tickets"
+msgstr "درخواست های حل شده"
 
 #: src/Glpi/Dashboard/Provider.php:443 src/Glpi/Dashboard/Grid.php:1343
 #: src/Glpi/Dashboard/FakeProvider.php:219
 msgid "Closed tickets"
-msgstr "Closed tickets"
+msgstr "درخواست های بسته شده"
 
 #: src/Glpi/Dashboard/Provider.php:620 src/Glpi/Dashboard/Provider.php:767
 #: src/Glpi/Dashboard/FakeProvider.php:253
@@ -24740,23 +24740,23 @@ msgstr "Delete this dashboard"
 
 #: src/Glpi/Dashboard/Grid.php:300
 msgid "Toggle auto-refresh"
-msgstr "Toggle auto-refresh"
+msgstr "تغییر وضعیت تازه سازی"
 
 #: src/Glpi/Dashboard/Grid.php:301
 msgid "Toggle night mode"
-msgstr "Toggle night mode"
+msgstr "تغییر وضعیت حالت تاریکی"
 
 #: src/Glpi/Dashboard/Grid.php:302
 msgid "Toggle fullscreen"
-msgstr "Toggle fullscreen"
+msgstr "تغییر وضعیت حالت تمام صفحه"
 
 #: src/Glpi/Dashboard/Grid.php:303
 msgid "Clone this dashboard"
-msgstr "Clone this dashboard"
+msgstr "کپی گرفتن داشبورد"
 
 #: src/Glpi/Dashboard/Grid.php:304
 msgid "Toggle edit mode"
-msgstr "Toggle edit mode"
+msgstr "تغییر وضعیت حالت ویرایش"
 
 #: src/Glpi/Dashboard/Grid.php:305
 msgid "Toggle filter mode"
@@ -24768,11 +24768,11 @@ msgstr "Add a new dashboard"
 
 #: src/Glpi/Dashboard/Grid.php:308
 msgid "Reset dashboard to default"
-msgstr ""
+msgstr "ریست کردن داشبورد"
 
 #: src/Glpi/Dashboard/Grid.php:421
 msgid "Add filter"
-msgstr "Add filter"
+msgstr "اضافه کردن فیلتر"
 
 #: src/Glpi/Dashboard/Grid.php:422
 msgid "You are viewing demonstration data."
@@ -24797,7 +24797,7 @@ msgstr "Delete this card"
 
 #: src/Glpi/Dashboard/Grid.php:833
 msgid "others"
-msgstr "others"
+msgstr "دیگران"
 
 #: src/Glpi/Dashboard/Grid.php:923
 msgid "Embed in another application"
@@ -26510,7 +26510,7 @@ msgstr "Click here to download the exported forms..."
 
 #: src/Glpi/Form/Form.php:498
 msgid "Service catalog description"
-msgstr "Service catalog description"
+msgstr "توضیحات فرم خدمت"
 
 #: src/Glpi/Form/Form.php:544
 msgid "Purge old form drafts"
@@ -26595,7 +26595,7 @@ msgstr "%1$s satisfaction survey (%2$s)"
 #: src/Glpi/Stat/Data/Location/StatDataSolved.php:51
 #, php-format
 msgid "Solved %1$s (%2$s)"
-msgstr "Solved %1$s (%2$s)"
+msgstr "حل شده %1$s (%2$s)"
 
 #: src/Glpi/Stat/Data/Sglobal/StatDataTicketNumber.php:76
 #: src/Glpi/Stat/Data/Graph/StatDataTicketAverageTime.php:73
@@ -26733,7 +26733,7 @@ msgstr "Change the status"
 
 #: src/Glpi/Inventory/Conf.php:297
 msgid "Put asset in trashbin"
-msgstr "Put asset in trashbin"
+msgstr "حذف کردن"
 
 #: src/Glpi/Inventory/Conf.php:318
 msgid "Configuration"
@@ -26965,7 +26965,7 @@ msgstr "No category found"
 
 #: src/Glpi/Features/TreeBrowse.php:316
 msgid "Without Category"
-msgstr "Without Category"
+msgstr "بدون دسته‌بندی"
 
 #: src/Glpi/Features/TreeBrowse.php:335
 #, php-format
@@ -26974,7 +26974,7 @@ msgstr ""
 
 #: src/Glpi/Features/PlanningEvent.php:803
 msgid "Each year"
-msgstr "Each year"
+msgstr "هر سال"
 
 #: src/Glpi/Features/PlanningEvent.php:837
 msgid "Interval"
@@ -26982,11 +26982,11 @@ msgstr "Interval"
 
 #: src/Glpi/Features/PlanningEvent.php:847
 msgid "Until"
-msgstr "Until"
+msgstr "تا وقتی"
 
 #: src/Glpi/Features/PlanningEvent.php:887
 msgid "By month"
-msgstr "By month"
+msgstr "براساس ماه"
 
 #: src/Glpi/Features/PlanningEvent.php:889 src/Toolbox.php:2092
 msgid "January"
@@ -27803,15 +27803,15 @@ msgstr[1] "Dropdown definitions"
 
 #: src/Glpi/Search/SearchEngine.php:556
 msgid "NOT"
-msgstr "NOT"
+msgstr "نقیض"
 
 #: src/Glpi/Search/SearchEngine.php:563
 msgid "AND NOT"
-msgstr "AND NOT"
+msgstr "نقیض و"
 
 #: src/Glpi/Search/SearchEngine.php:564
 msgid "OR NOT"
-msgstr "OR NOT"
+msgstr "نقیض یا"
 
 #: src/Glpi/Search/Input/QueryBuilder.php:920
 msgid "Some search criteria were removed because they are invalid"
@@ -27847,12 +27847,12 @@ msgstr ""
 
 #: src/Glpi/Search/CriteriaFilter.php:117
 msgid "Preview results"
-msgstr "Preview results"
+msgstr "پیش نمایش نتایج"
 
 #: src/Glpi/Search/Output/HTMLSearchOutput.php:190
 #, php-format
 msgid "Filtered by %s"
-msgstr "Filtered by %s"
+msgstr "فیلتر براساس %s"
 
 #: src/Glpi/Search/Output/HTMLSearchOutput.php:206
 #, php-format
@@ -27914,7 +27914,7 @@ msgstr "All %1$s"
 #: src/Glpi/Search/Output/Spreadsheet.php:523
 #, php-format
 msgid "Search results for %1$s"
-msgstr "Search results for %1$s"
+msgstr "%1$sجستجوی نتایج برای "
 
 #: src/Glpi/Search/Provider/SQLProvider.php:5371
 msgid ""
@@ -31299,12 +31299,12 @@ msgstr "Simcard PIN/PUK"
 #: src/Profile.php:948 src/Profile.php:1822 src/Contact.php:61
 msgid "Contact"
 msgid_plural "Contacts"
-msgstr[0] "Contact"
-msgstr[1] "Contacts"
+msgstr[0] "مخاطب"
+msgstr[1] "مخاطب ها"
 
 #: src/Profile.php:975 src/Profile.php:2617
 msgid "System logs"
-msgstr "System logs"
+msgstr "گزارش ها سیستم"
 
 #: src/Profile.php:1037 src/Profile.php:2420
 msgid "Rules for assigning a computer to an entity"
@@ -31404,13 +31404,14 @@ msgstr ""
 #: src/Reminder.php:74
 msgid "Reminder"
 msgid_plural "Reminders"
-msgstr[0] "Reminder"
-msgstr[1] "Reminders"
+msgstr[0] "یادآوری"
+msgstr[1] "یادآوری ها"
 
 #: src/Reminder.php:76 src/Reminder.php:737
 msgid "Personal reminder"
 msgid_plural "Personal reminders"
 msgstr[0] "یادداشت های شخصی"
+msgstr[1] "یادداشت های شخصی"
 
 #: src/DeviceFirmwareModel.php:43
 msgid "Device firmware model"
@@ -31454,7 +31455,7 @@ msgstr "Logs purge"
 
 #: src/Config.php:1042
 msgid "Performance"
-msgstr "Performance"
+msgstr "عملکرد"
 
 #: src/Config.php:1153
 #, php-format
@@ -33926,7 +33927,7 @@ msgstr "Other item exist"
 
 #: src/CommonDBTM.php:4483
 msgid "Item in the trashbin"
-msgstr "Item in the trashbin"
+msgstr "موارد حذف شده"
 
 #: src/CommonDBTM.php:4627
 #, php-format
@@ -34726,11 +34727,11 @@ msgstr "Open this element in a new tab"
 
 #: js/impact.js:1384
 msgid "Show ongoing tickets"
-msgstr "Show ongoing tickets"
+msgstr "نمایش درخواست های باز"
 
 #: js/impact.js:1385
 msgid "Show ongoing tickets for this item"
-msgstr "Show ongoing tickets for this item"
+msgstr "نمایش درخواست های باز برای این مورد"
 
 #: js/impact.js:1391
 msgid "Edge properties..."
